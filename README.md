@@ -1,5 +1,8 @@
 # ZK-proof driven sealed-bid second-price auction
 
+Nevermind, I found this idea implemented exactly as I wanted to in [Aleo blockchain docs](https://developer.aleo.org/leo/auction) as a sample project  :/
+
+<del>
 ## Introduction
 **Sealed-bid second-price auction** or [Vickrey auction](https://en.wikipedia.org/wiki/Vickrey_auction#:~:text=A%20Vickrey%20auction%20or%20sealed,is%20the%20second-highest%20bid.) is a type of auction, the bids are private until some time limit then the highest bidder wins but the price paid is of second-highest bid.
 
@@ -11,3 +14,4 @@
 3. The bidders submit their commitments and ZK proofs to the auctioneer.
 4. The auctioneer verifies the ZK proofs to ensure that the commitments are valid bids, without actually seeing the bids themselves.
 5. Once all the bids have been verified, the auctioneer announces the winning bid and the corresponding bidder. 
+<del/>
